@@ -1,0 +1,37 @@
+# Environment variables (Crucial to ignore so API keys don't get pushed)
+.env
+.env.local
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Storage (Local Vector & Graph DBs, downloaded PDFs)
+data/
+workspace/
+*.pdf
+*.db
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
